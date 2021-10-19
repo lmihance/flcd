@@ -51,24 +51,3 @@ class SymbolTable:
 
 		prev.next = Node(key)
 		return (index, l_index)
-
-
-st = SymbolTable()
-
-print(st.pos("a"))
-print(st.pos("b"))
-print(st.pos("c"))
-print(st.pos("d"))
-print(st.pos("e"))
-print(st.pos("f"))
-print(st.pos("g"))
-print(st.pos("h"))
-print(st.pos("i"))
-print(st.pos("j"))
-print(st.pos("k"))
-print(st.pos("l"))
-print(st.pos("m"))
-print(st.pos("n"))
-
-print(st.pos("a"))
-print(st.pos("k"))
